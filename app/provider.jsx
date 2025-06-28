@@ -48,5 +48,6 @@ export default Provider
 
 export const useUser = () => {
     const context=useContext(UserDetailContext);
+    console.log(context);
     return context;
 }
